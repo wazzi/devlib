@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<!--get user registratoin details-->
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styler.css" type="text/css"/>
+        <title>User Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div>
+            <form action="purchase_processor.php" method="POST">
+                First Name: <input type="text" name="fname"/><br><p>
+                    Item Name: <input type="text" name="lname"/><br><p>
+                    Quantity Bought: <input type="text" name="username"/><br><p>
+                    _____Email:     <input type="email" name="email"/><br><p>
+                Notification: <select name="notifier">
+                    <option value="email">Email</option>
+                    <option value="rss">RSS</option>
+                    <option value="text">Text Message</option>
+                </select><br><br><br>
+                <input type="submit" value="Register"/>
+                <input type="reset" value="Clear"/>
+                
+            </form>
+        </div>
+    </body>
+</html>
