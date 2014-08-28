@@ -13,7 +13,10 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo "This is the default Devlib/Stringer Page";      
+        echo "This is the default Devlib/Stringer Page<br/>";     
+        echo "<br/>Covered:<br/><ol><li>Formatting Strings</li>"
+        . "<li>Joining and splitting strings</li><li>Comparing Strings</li>"
+                . "<li>Matching and replacing</li><li>Regular expressions   </li></ol>";
         ?>
     </body>
 </html>
